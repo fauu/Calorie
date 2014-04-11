@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Calorie
+GenericName=Calorie
+Comment=Calorie
+Exec=calorie
+Icon=calorie
+Terminal=false
+Categories=GTK;Accessories;Utility
