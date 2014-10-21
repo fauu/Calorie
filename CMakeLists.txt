@@ -29,7 +29,7 @@ add_subdirectory (po)
 add_definitions("-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\"")
 
 find_package(PkgConfig)
-pkg_check_modules(DEPS REQUIRED gtk+-3.0 gee-1.0 granite sqlite3)
+pkg_check_modules(DEPS REQUIRED gtk+-3.0 gee-0.8 granite sqlite3)
 
 add_definitions(${DEPS_CFLAGS})
 
@@ -61,7 +61,7 @@ vala_precompile(VALA_C ${EXEC_NAME}
     src/Database.vala
 PACKAGES 
     gtk+-3.0
-    gee-1.0
+    gee-0.8
     granite
     sqlite3
 OPTIONS
