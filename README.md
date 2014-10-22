@@ -1,7 +1,13 @@
 #Calorie
 
 ##What is it?
-Calorie is a simple calorie tracker application for elementary OS, built with Vala, Libgee, GTK+, Granite and SQLite. 
+Calorie is a simple calorie tracker application for elementary OS.
+
+##Utilised technologies
+* **Vala** programming language with **Libgee** collection library
+* **GTK+** GUI toolkit with **Granite** extension
+* **SQLite** database engine
+* **CMake** build system
 
 ##Current version
 Calorie is  currently under development so there is no official release of any kind apart from snapshots.
