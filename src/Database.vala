@@ -25,8 +25,11 @@ namespace Calorie {
         Database () {
             int rc = -1;
 
-            db_path = Environment.get_home_dir () 
-                      + "/.local/share/calorie/calorie.db";
+
+            var calorie_dir = Environment.get_home_dir () + "/.local/share/calorie/";
+            DirUtils.create_with_parents (calorie_dir, 0766);
+            db_path = calorie_dir + "calorie.db";
+                      
 
             if (create_tables () != Sqlite.OK) {
                 stderr.printf 
