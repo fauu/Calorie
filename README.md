@@ -9,8 +9,8 @@ retired in 2014.
 
 ## Other screenshots
 
-- [Adding food diary entry](media/screenshots/adding-entry.png)
-- [Customizing meal names](media/screenshots/customizing-meal-names.png)
+- [Adding food diary entry](https://raw.githubusercontent.com/fauu/Calorie/master/media/screenshots/adding-entry.png)
+- [Customizing meal names](https://raw.githubusercontent.com/fauu/Calorie/master/media/screenshots/customizing-meal-names.png)
 
 ## Techonology
 
